@@ -1,0 +1,41 @@
+{
+  "outfits": [
+    
+    {
+      "id": 1,
+      "name": "30 degree C",
+      "image": "./images/hollie-2.png",
+      "temperature": 30
+    },
+    {
+      "id": 2,
+      "name": "35 °F, Partly Cloudy",
+      "image": "./images/hollie-3.png",
+      "temperature": 35
+    },
+    {
+      "id": 3,
+      "name": "38 °F, Mostly Cloudy",
+      "image": "./images/hollie-1.png",
+      "temperature": 38
+    },
+    {
+      "id": 4,
+      "name": "40 degree C",
+      "image": "./images/hollie-4.png",
+      "temperature": 40
+    },
+    {
+      "id": 5,
+      "name": "45 degree C",
+      "image": "./images/hollie-5.png",
+      "temperature": 45
+    },
+    {
+      "id": 6,
+      "name": "50 degree C",
+      "image": "./images/hollie-6.png",
+      "temperature": 50
+    }
+  ]
+}
