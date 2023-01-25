@@ -9,7 +9,7 @@ function App() {
     <div>
     
     <Header />
-    <Weather />
+    <Weather defaultCity="New York" />
     <Home />
     </div>
   );

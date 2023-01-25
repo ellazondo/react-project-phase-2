@@ -3,7 +3,7 @@ import "./Weather.css";
 import axios from "axios";
 import Spinner from "react-bootstrap/Spinner";
 
-export default function Weather() {
+export default function Weather(props) {
   const [ready, setReady] = useState(false);
   const [weatherData, setWeatherData] = useState({ready: false});
 
@@ -67,7 +67,7 @@ export default function Weather() {
   } else {
     const apiKey = "7e51999498b98449960c3d517772a9e2";
   let city = "New York";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=imperial`
   axios.get(apiUrl).then(handleResponse);
   return ( 
     <Spinner animation="grow" variant="success" />  
