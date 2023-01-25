@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 import Spinner from "react-bootstrap/Spinner";
-import FormattedDate from './FormattedDate'
+import FormattedDate from './FormattedDate';
+import WeatherInfo from "./WeatherInfo";
 
 export default function Weather(props) {
   const [ready, setReady] = useState(false);
   const [weatherData, setWeatherData] = useState({});
 
   function handleResponse (response) {
+    console.log(response.data)
     
     setWeatherData({
       
@@ -24,7 +26,7 @@ export default function Weather(props) {
     
   }
 
-  if (weatherData.ready) {
+  if (ready) {
     return (
          <div className="Weather">
       <form>
@@ -42,6 +44,7 @@ export default function Weather(props) {
           </div>
         </div>
       </form>
+      <WeatherInfo />
       <h1>{weatherData.city}</h1>
       <ul>
         <li><FormattedDate date={weatherData.date} /> </li>
@@ -66,7 +69,7 @@ export default function Weather(props) {
     </div>
     );
   } else {
-  const apiKey = "c15333fa26f49ebfbbe65c8305f2f5fa";
+  const apiKey = "7e51999498b98449960c3d517772a9e2";
   let city = "New York";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=imperial`
   axios.get(apiUrl).then(handleResponse);
