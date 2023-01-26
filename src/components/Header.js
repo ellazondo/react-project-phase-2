@@ -1,11 +1,12 @@
 import react from 'react';
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
         <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
+    <a className="navbar-brand" href="#">FFTW</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -13,12 +14,16 @@ export default function Header() {
       <ul className="navbar-nav">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">Home</a>
+          
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Features</a>
+          
+          <a className="nav-link" href="./WeatherInfo">Weather</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
+          <a className="nav-link" href="./Shopping">Shopping</a>
+          
+          
         </li>
       </ul>
     </div>
@@ -27,3 +32,6 @@ export default function Header() {
     </div>
   )
 }
+
+
+

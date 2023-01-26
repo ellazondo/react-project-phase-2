@@ -1,3 +1,26 @@
+.Weather  {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #dadde1;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 4px;
+  max-width: 600px;
+  
+}
+
+.Weather h1 {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 100;
+  margin:20px 0 15px 0;
+  line-height: 29px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+
 .Weather li {
   font-size: 16px;
   font-weight: 100;
@@ -27,22 +50,17 @@
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -20px;
 }
 
-.Weather h1 {
-  font-family: 'Darker Grotesque', sans-serif;
+.Weather .float-left {
+display: flex;
+margin-top: 15px;
+
 }
 
 
-.Weather  {
-  border: 1px solid #dadde1;
-  padding: 30px;
-  margin: 30px auto;
-  border-radius: 4px;
-  max-width: 600px;
-  
-}
+
+
 
 
 

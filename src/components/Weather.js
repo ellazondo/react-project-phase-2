@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 import Spinner from "react-bootstrap/Spinner";
+import Fashion from "./Fashion";
 
 import WeatherInfo from "./WeatherInfo";
 
@@ -45,6 +46,7 @@ export default function Weather(props) {
 
   if (ready) {
     return (
+      <div className="Home-wrapper">
          <div className="Weather">
       <form onSubmit={handleSubmit}>
         <div className="row">
@@ -64,6 +66,9 @@ export default function Weather(props) {
       </form>
       <WeatherInfo data={weatherData} />
       </div>
+      
+      <Fashion weatherData={weatherData} />
+      </div>
     );
   } else { 
     search();
@@ -71,6 +76,7 @@ export default function Weather(props) {
   }
   
 }
+
 
 
 
