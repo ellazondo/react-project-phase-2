@@ -1,18 +1,48 @@
+import Home from './Home';
+import Weather from './Weather';
+import Shopping from './Shopping';
 
-import Header from './Header';
-import Weather from "./Weather";
-import React, { useState } from "react";
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import "./App.css";
 
 function App() {
-  return (
-    <div>
-      
-  <Header />
-  <Weather defaultCity="New York" />
-    
-    </div>
-  );
+return (
+    <Router>
+      <div>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/weather">Weather</Link>
+          </li>
+          <li>
+            <Link to="/shopping">Shopping</Link>
+          </li>
+        </ul>
+
+        <hr />
+
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/weather">
+            <Weather defaultCity="New York"  />
+          </Route>
+          <Route path="/shopping">
+            <Shopping />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+    );
 }
 
 export default App;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import NewOutfitForm from "./NewOutfitForm";
+// import NewOutfitForm from "./NewOutfitForm";
 import OutfitList from "./OutfitList";
-import Search from "./Search";
+// import Search from "./Search";
 
 export default function Fashion({weatherData}) {
   const [outfits, setOutfits] = useState([]);
@@ -15,24 +15,25 @@ export default function Fashion({weatherData}) {
       });
   }, []);
 
-  function onAddOutfit(newOutfit) {
-    const updatedOutfitArray = [...outfits, newOutfit];
-    setOutfits(updatedOutfitArray);
-  }
+  // function onAddOutfit(newOutfit) {
+  //   const updatedOutfitArray = [...outfits, newOutfit];
+  //   setOutfits(updatedOutfitArray);
+  // }
 
-  const displayedOutfits = outfits.filter((outfit) => {
-    return outfit.name.toLowerCase().includes(searchTerm.toLowerCase());
-  });
 
   return (
     <main>
-      
-      <Search setSearchTerm={setSearchTerm} />
       <OutfitList
         weatherData={weatherData}
-        outfits={displayedOutfits}
+        outfits={outfits}
       />
-      <NewOutfitForm onAddOutfit={onAddOutfit} />
+      
     </main>
   );
 }
+//  const displayedOutfits = outfits.filter((outfit) => {
+//     return outfit.name.toLowerCase();
+//   });
+// .includes(searchTerm.toLowerCase())
+{/* <Search setSearchTerm={setSearchTerm} />
+<NewOutfitForm onAddOutfit={onAddOutfit} /> */}
