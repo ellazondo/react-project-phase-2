@@ -1,6 +1,5 @@
 {
   "outfits": [
-    
     {
       "id": 1,
       "name": "30 degree C",
@@ -36,6 +35,12 @@
       "name": "50 degree C",
       "image": "./images/hollie-6.png",
       "temperature": 50
+    },
+    {
+      "name": "ella",
+      "image": "https://img.freepik.com/free-photo/delicious-ramen-dark-surface_1150-41973.jpg?w=1380&t=st=1671638965~exp=1671639565~hmac=3e775a8c67d2c86883b7faa6f6546e238cef4874f28b87e18b3b872a2ef4e6ac",
+      "temperature": 20,
+      "id": 7
     }
   ]
 }
