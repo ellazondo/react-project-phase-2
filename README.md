@@ -1,7 +1,8 @@
 # Fashion for the weather
 
 ##Demo
-Use this gif as an example of how the app should work.
+Use these photos as an example of how the app should work:
+https://imgur.com/a/uHIbull
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
