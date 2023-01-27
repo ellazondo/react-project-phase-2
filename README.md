@@ -1,8 +1,8 @@
 # Fashion for the weather
 
-##Demo
+## Demo
 
-##Use these photos as an example of how the app should work:
+## Use these photos as an example of how the app should work:
 
 ![Screen Shot 2023-01-27 at 9 11 40 AM](https://user-images.githubusercontent.com/102162069/215109932-a8a20d8a-8b3e-4ff8-bba5-24972e8ed4bd.png)
 
