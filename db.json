@@ -2,39 +2,78 @@
   "outfits": [
     {
       "id": 1,
+      "name": "Snow",
+      "image": "./images/hollie-15.png",
+      "temperature": 15
+    },
+    
+    {
+      "id": 2,
       "name": "Puffer Scarf",
       "image": "./images/hollie-2.png",
       "temperature": 30
     },
     {
-      "id": 2,
+      "id": 3,
+      "name": "The Scarf Statement",
+      "image": "./images/hollie-38.png",
+      "temperature": 34
+    },
+    {
+      "id": 4,
       "name": "Puffer Vest",
       "image": "./images/hollie-3.png",
       "temperature": 35
     },
     {
-      "id": 3,
+      "id": 5,
+      "name": "Rubber Boot Look",
+      "image": "./images/hollie-39.png",
+      "temperature": 37
+    },
+    {
+      "id": 6,
       "name": "The Matching Scarf",
       "image": "./images/hollie-1.png",
       "temperature": 38
     },
     {
-      "id": 4,
+      "id": 7,
       "name": "Fleece",
       "image": "./images/hollie-4.png",
       "temperature": 40
     },
     {
-      "id": 5,
+      "id": 8,
+      "name": "Double Fleece",
+      "image": "./images/hollie-8.png",
+      "temperature": 40
+    },
+    {
+      "id": 9,
+      "name": "The Gray",
+      "image": "./images/hollie-7.png",
+      "temperature": 40
+    },
+    {
+      "id": 10,
       "name": "Light Puffer Vest",
       "image": "./images/hollie-5.png",
       "temperature": 43
     },
     {
-      "id": 6,
+      "id": 11,
       "name": "Share Clothes with your Boo",
       "image": "./images/hollie-6.png",
       "temperature": 50
+    },
+    {
+      "id": 12,
+      "name": "Sheepish",
+      "image": "./images/hollie-40.png",
+      "temperature": 50
     }
+    
+    
   ]
 }

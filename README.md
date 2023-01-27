@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Fashion for the weather
+
+##Demo
+Use this gif as an example of how the app should work.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
