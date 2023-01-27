@@ -2,11 +2,21 @@
 
 ## Demo
 
-## Use these photos as an example of how the app should work:
+Use these photos as an example of how the app should work:\
+
+Home Page\
+
+![Screen Shot 2023-01-27 at 9 28 51 AM](https://user-images.githubusercontent.com/102162069/215110758-4cdddc89-c2f8-41b2-92ea-b565ac2e64db.png)
+
+Weather Page\
 
 ![Screen Shot 2023-01-27 at 9 11 40 AM](https://user-images.githubusercontent.com/102162069/215109932-a8a20d8a-8b3e-4ff8-bba5-24972e8ed4bd.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Outfit Inspo Page\
+
+![Screen Shot 2023-01-27 at 9 32 31 AM](https://user-images.githubusercontent.com/102162069/215111686-a2e6afc3-fd9f-47fa-a017-bdafd3327a0d.png)
 
 
 
