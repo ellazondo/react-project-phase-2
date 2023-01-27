@@ -1,5 +1,14 @@
+import styles from "./Home.css";
+
+
 export default function Home () {
+
     return (
-        <h1>How to dress for the Weather</h1>
+        <div className="home-page-wrapper">
+            <img src="./images/home-photo.png" />
+    
+        </div>
+        
+        
     )
 }

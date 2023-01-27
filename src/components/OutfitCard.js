@@ -8,7 +8,7 @@ export default function OutfitCard({ outfit }) {
     <li className="card">
       <img src={image} alt={name} />
       <h4>{name}</h4>
-      <p>Temperature: {temperature}</p>
+      <p>Suggested Temperature: {temperature} </p>
     </li>
   );
 }

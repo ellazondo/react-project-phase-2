@@ -3,3 +3,11 @@
     margin: 30px auto;
 }
 
+.App .navbar-nav {
+    font-family: 'Darker Grotesque', sans-serif;
+
+}
+
+.App .navbar-brand {
+    font-family: 'Darker Grotesque', sans-serif;
+}

@@ -133,6 +133,17 @@ input:focus {
   margin-top: 0.5rem;
 }
 
+
+
+.home-page-title {
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+.home-page-background {
+  background-image: url("../public/images/home-photo.png");
+  padding: 50px 50px;
+}
+
 @media (min-width: 768px) {
   .cards {
     display: flex;

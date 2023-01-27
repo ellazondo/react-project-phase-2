@@ -2,57 +2,39 @@
   "outfits": [
     {
       "id": 1,
-      "name": "30 degree C",
+      "name": "Puffer Scarf",
       "image": "./images/hollie-2.png",
       "temperature": 30
     },
     {
       "id": 2,
-      "name": "35 °F, Partly Cloudy",
+      "name": "Puffer Vest",
       "image": "./images/hollie-3.png",
       "temperature": 35
     },
     {
       "id": 3,
-      "name": "38 °F, Mostly Cloudy",
+      "name": "The Matching Scarf",
       "image": "./images/hollie-1.png",
       "temperature": 38
     },
     {
       "id": 4,
-      "name": "40 degree C",
+      "name": "Fleece",
       "image": "./images/hollie-4.png",
       "temperature": 40
     },
     {
       "id": 5,
-      "name": "45 degree C",
+      "name": "Light Puffer Vest",
       "image": "./images/hollie-5.png",
       "temperature": 43
     },
     {
       "id": 6,
-      "name": "50 degree C",
+      "name": "Share Clothes with your Boo",
       "image": "./images/hollie-6.png",
       "temperature": 50
-    },
-    {
-      "name": "ella",
-      "image": "https://img.freepik.com/free-photo/delicious-ramen-dark-surface_1150-41973.jpg?w=1380&t=st=1671638965~exp=1671639565~hmac=3e775a8c67d2c86883b7faa6f6546e238cef4874f28b87e18b3b872a2ef4e6ac",
-      "temperature": 20,
-      "id": 7
-    },
-    {
-      "name": "ella",
-      "image": "https://img.freepik.com/free-photo/delicious-ramen-dark-surface_1150-41973.jpg?w=1380&t=st=1671638965~exp=1671639565~hmac=3e775a8c67d2c86883b7faa6f6546e238cef4874f28b87e18b3b872a2ef4e6ac",
-      "temperature": 43,
-      "id": 8
-    },
-    {
-      "name": "ella",
-      "image": "https://img.freepik.com/free-photo/delicious-ramen-dark-surface_1150-41973.jpg?w=1380&t=st=1671638965~exp=1671639565~hmac=3e775a8c67d2c86883b7faa6f6546e238cef4874f28b87e18b3b872a2ef4e6ac",
-      "temperature": 33,
-      "id": 9
     }
   ]
 }
