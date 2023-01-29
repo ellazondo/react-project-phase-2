@@ -64,17 +64,19 @@ main {
 }
 
 .new-outfit-form h2 {
-  color: #d69b68;
+  font-family: 'Darker Grotesque', sans-serif;
+  
 }
 
-.new-outfit-form button {
-  color: #d69b68;
+.button {
+  color: #F0A3AE;
 }
 
 .new-outfit-form {
   padding: 2rem 1rem;
   margin: 2rem 0;
-  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+  font-family: 'Darker Grotesque', sans-serif;
 }
 
 .new-outfit-form form {
@@ -143,6 +145,19 @@ input:focus {
   background-image: url("../public/images/home-photo.png");
   padding: 50px 50px;
 }
+
+.hero {
+  background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+  text-align: center;
+  padding: 75px 20px;
+  margin: 0 20px;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 70px;
+}
+
+
+
+
 
 @media (min-width: 768px) {
   .cards {

@@ -28,6 +28,7 @@ export default function OutfitInspo({weatherData}) {
 
   return (
     <main>
+      <h1 className="mb-5 hero d-flex d-none d-md-block">Outfit Inspo</h1>
       
       <Search setSearchTerm={setSearchTerm} />
       <OutfitListAll

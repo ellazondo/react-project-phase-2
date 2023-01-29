@@ -64,9 +64,10 @@ export default function Weather(props) {
           </div>
         </div>
       </form>
+      
       <WeatherInfo data={weatherData} />
       </div>
-      
+      <h1 className="mb-5 hero d-flex d-none d-md-block">What to wear today:</h1>
       <Fashion weatherData={weatherData} />
       </div>
     );

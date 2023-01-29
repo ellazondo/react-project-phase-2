@@ -6,7 +6,6 @@
       "image": "./images/hollie-15.png",
       "temperature": 15
     },
-    
     {
       "id": 2,
       "name": "Puffer Scarf",
@@ -35,31 +34,31 @@
       "id": 6,
       "name": "The Matching Scarf",
       "image": "./images/hollie-1.png",
-      "temperature": 38
+      "temperature": 39
     },
     {
       "id": 7,
       "name": "Fleece",
       "image": "./images/hollie-4.png",
-      "temperature": 40
+      "temperature": 41
     },
     {
       "id": 8,
       "name": "Double Fleece",
       "image": "./images/hollie-8.png",
-      "temperature": 40
+      "temperature": 41
     },
     {
       "id": 9,
       "name": "The Gray",
       "image": "./images/hollie-7.png",
-      "temperature": 40
+      "temperature": 41
     },
     {
       "id": 10,
       "name": "Light Puffer Vest",
       "image": "./images/hollie-5.png",
-      "temperature": 43
+      "temperature": 41
     },
     {
       "id": 11,
@@ -72,8 +71,24 @@
       "name": "Sheepish",
       "image": "./images/hollie-40.png",
       "temperature": 50
+    },
+    {
+      "name": "The Dorothy",
+      "image": "https://i.imgur.com/WAFDhGB.png",
+      "temperature": 60,
+      "id": 13
+    },
+    {
+      "name": "The Aura",
+      "image": "https://i.imgur.com/ceHeIAs.png",
+      "temperature": 60,
+      "id": 14
+    },
+    {
+      "name": "ella",
+      "image": "https://i.imgur.com/cKmaR4D.png",
+      "temperature": 40,
+      "id": 15
     }
-    
-    
   ]
 }
