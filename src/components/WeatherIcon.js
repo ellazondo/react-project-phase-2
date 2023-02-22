@@ -1,4 +1,4 @@
-import react from 'react';
+
 import ReactAnimatedWeather from "react-animated-weather";
 
 export default function WeatherIcon (props) {
