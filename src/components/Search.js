@@ -5,7 +5,7 @@ function Search({ setSearchTerm }) {
     <div className="searchbar">
       <label htmlFor="search">Search Outfits:</label>
       <input
-        type="text"
+        type="number"
         id="search"
         placeholder="Search a temperature..."
         // value={searchTerm}

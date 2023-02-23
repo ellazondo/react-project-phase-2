@@ -2,7 +2,6 @@
 import OutfitListAll from "./OutfitListAll";
 import React, { useEffect, useState } from "react";
 import NewOutfitForm from "./NewOutfitForm";
-import OutfitList from "./OutfitList";
 import Search from "./Search";
 
 export default function OutfitInspo({weatherData}) {
@@ -23,8 +22,9 @@ export default function OutfitInspo({weatherData}) {
   }
 
   const displayedOutfits = outfits.filter((outfit) => {
-    return outfit.name.toLowerCase().includes(searchTerm.toLowerCase());
+    return outfit.temperature.toString().includes(searchTerm.toString());
   });
+  console.log('searched temperature', searchTerm)
 
   return (
     <main>

@@ -5,7 +5,7 @@ import OutfitList from "./OutfitList";
 
 export default function Fashion({weatherData}) {
   const [outfits, setOutfits] = useState([]);
-  const [searchTerm, setSearchTerm] = useState("");
+  // const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     fetch("http://localhost:3000/outfits")
@@ -35,5 +35,3 @@ export default function Fashion({weatherData}) {
 //     return outfit.name.toLowerCase();
 //   });
 // .includes(searchTerm.toLowerCase())
-{/* <Search setSearchTerm={setSearchTerm} />
-<NewOutfitForm onAddOutfit={onAddOutfit} /> */}
